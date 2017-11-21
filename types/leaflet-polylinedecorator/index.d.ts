@@ -45,9 +45,9 @@ declare module 'leaflet' {
     }
 
     interface Pattern {
-        offset?: number;
-        endOffset?: number;
-        repeat: number;
+        offset?: number | string;
+        endOffset?: number | string;
+        repeat: number | string;
         symbol: Symbol.Dash | Symbol.ArrowHead | Symbol.Marker;
     }
 
